@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#vantajs {
+    min-height: 100%;
+    
+}
+
+#titre {
+    color: white;
+    text-align: center;
+    padding-top: 30;
+    font-size: 40;
+}
+
+#temp {
+    color: white;
+    text-align: center;
+    font-size: 110;
+    /* border-style: solid; */
+    margin-top: 20px;
+    
+}
+
+#dehors {
+    color:white;
+    text-align: center;
+}
+
+#bord {
+    
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    color: white;
+}
+
+
+#temp2 {
+    color: white;
+    text-align: center;
+    font-size: 180;
+    /* border-style: solid; */
+    margin-top: -50px;
+    
+}

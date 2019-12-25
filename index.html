@@ -1,0 +1,52 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- vanta js assets -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.clouds.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Météo;Lyfe</title>
+</head>
+<body>
+    
+    
+<div id="vantajs"> 
+    
+    <h1 id="titre">Météo;Lyfe</h1>
+    <h1 id="titre">PARIS</h1>
+    
+        
+        <br>
+        <center>
+            <div id="bord">
+                <h2 id="temp"></h2>
+                <h2 id="temp2">°C</h2>
+            </div>
+        </center>
+    
+    
+</div>
+
+
+
+<script> 
+
+VANTA.CLOUDS({
+    el: "#vantajs",
+    colorMode: "lerpGradient",
+    wingSpan: 23.00,
+    speedLimit: 8.00,
+    separation: 60.00,
+    alignment: 35.00,
+    cohesion: 24.00,
+    backgroundAlpha: 0.36,
+    skyColor: 0x836cd,
+    cloudColor: 0x566984
+})
+</script>
+<script src="sandbox.js"></script>
+</body>
+</html>
